@@ -1,0 +1,13 @@
+// you can convert an set to an array ,and array to set;
+
+//array to set
+const studentIds1=[1,2,3,5,5,5];
+const uniquestudentIds=new Set(studentIds1);
+console.log({uniquestudentIds});
+
+
+//set to array
+//... spread operator
+const newStudentIds=[...uniquestudentIds];
+console.log({newStudentIds});
+console.log(newStudentIds[3]);
